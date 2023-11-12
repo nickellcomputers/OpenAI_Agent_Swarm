@@ -1,0 +1,26 @@
+{
+   "send_email": {
+       "type": "function",
+       "function": {
+           "name": "send_email",
+           "description": "Sends an email to the specified address with a subject and body.",
+           "parameters": {
+               "type": "object",
+               "properties": {
+                  "to_address": {
+                      "type": "string",
+                      "description": "The email address to send to."
+                  },
+                  "subject": {
+                      "type": "string",
+                      "description": "The subject of the email."
+                  },
+                  "body": {
+                      "type": "string",
+                      "description": "The body content of the email."
+                  }
+               }
+           }
+       }
+   }
+}

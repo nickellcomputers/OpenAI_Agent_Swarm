@@ -1,0 +1,5 @@
+{
+    "name": "combine_strings",
+    "description": "This tool concatenates two strings provided as param1 and param2 and returns the combined result.",
+    "parameters": "{\"type\": \"object\", \"properties\": {\"param1\": {\"type\": \"string\", \"description\": \"The first string to concatenate.\"}, \"param2\": {\"type\": \"string\", \"description\": \"The second string to concatenate.\"}}, \"required\": [\"param1\", \"param2\"]}"
+}
